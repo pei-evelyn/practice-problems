@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Word Count</title>
+</head>
+<body>
+    <script>
+        function getWordCount(sentence) {
+           var wordCount = 0;
+           for (var i = 0; i < sentence.length; i++) {
+               if (sentence[i] === " ") {
+                   wordCount += 1;
+               }
+           }
+           return wordCount + 1;
+        }
+    </script>
+</body>
+</html>
