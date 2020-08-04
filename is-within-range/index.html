@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Within Range</title>
+</head>
+<body>
+    <script>
+        /* I will need to create a function named 'isWithinRange' that has two
+        parameters, a number and an object.  Function will return true if number
+        falls within the min and max of the object.  Returns false if it doesn't
+
+        1. Name the function
+        2. Will check to see if the number is within range with two condition
+            a. if number is greater than property min value of object
+            b. if number is less than proper max value of object
+        3. return true is true, return false if false */
+
+
+        function isWithinRange(num, obj) {
+            if (num >=obj.min && num <= obj.max) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
