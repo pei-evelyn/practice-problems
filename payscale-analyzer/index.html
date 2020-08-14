@@ -13,10 +13,7 @@
       for (let i = 0; i < payList.length; i++) {
         if (payList[i] > highestPay) {
           highestPay = payList[i]
-        }
-      }
-      for (let i = 0; i < payList.length; i++) {
-        if (payList[i] < lowestPay) {
+        } else if (payList[i] < lowestPay) {
           lowestPay = payList[i]
         }
       }
